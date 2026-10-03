@@ -1,0 +1,29 @@
+:root {
+  /* 钢青主色 —— 作为本仓主色，与赭石主题明显区分 */
+  --primary: #00897B;
+  --primary-deep: #00695F;
+  --primary-soft: #A3D2CB;
+  --primary-wash: #DCEDEA;
+  --ink: #20302E;
+  --muted: #5C7571;
+  --line: #D9E6E3;
+  --bg: #F1F7F6;
+
+  --el-color-primary: #00897B;
+  --el-color-primary-light-3: #4DA89D;
+  --el-color-primary-light-5: #77BDB4;
+  --el-color-primary-light-7: #A3D2CB;
+  --el-color-primary-light-8: #BBDBD5;
+  --el-color-primary-light-9: #DCEDEA;
+  --el-color-primary-dark-2: #00695F;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
